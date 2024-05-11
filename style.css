@@ -7,3 +7,8 @@
 {
     display: inline;
 }
+
+.album-covers
+{
+    border-radius: 80%;
+}
