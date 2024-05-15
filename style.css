@@ -84,3 +84,43 @@ audio
 {
     width: 200px;
 }
+
+.footer
+{
+    background: #404040;
+    font-family: "Titillium Web", sans-serif;
+    text-align: center;
+}
+
+.footer .row
+{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer .row a
+{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    cursor: pointer;
+}
+
+.footer .row a:hover
+{
+    color: #191970;
+}
+
+.footer .row a i
+{
+    font-size:2em;
+    margin:0%;
+}
+
+.footer .row a i
+{
+    margin: 0;
+}
