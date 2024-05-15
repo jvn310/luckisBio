@@ -8,6 +8,12 @@
     display: inline;
 }
 
+.read-more-btn
+{
+    color: #191970;
+    cursor: pointer;
+}
+
 .album-covers
 {
     border-radius: 80%;
@@ -20,7 +26,7 @@ body
 
 header
 {
-    padding: 50px 120px 60px 120px;
+    padding: 50px 120px 140px 120px;
 }
 
 header img
@@ -31,15 +37,50 @@ header img
     border-radius: 50%;
 }
 
-h1
+.album-covers
+{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.auto-type
 {
     color: #026606;
     font-size: 60px;
-    padding: 60px;
     font-family: "Playfair Display", serif;
 }
 
-p
+p, .row, ol
 {
     color: #D0C0D0;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 18px;
+}
+
+#songs img
+{
+    width: 200px;
+    height: 200px;
+}
+
+h2, h3
+{
+    color: #026606;
+}
+
+#popular-songs
+{
+    margin-top: 8px;
+}
+
+audio::-webkit-media-controls-enclosure
+ {
+    border-radius: 0;
+    background-color: rgba(200,200,200,1)
+}
+
+audio
+{
+    width: 200px;
 }
