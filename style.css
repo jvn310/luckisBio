@@ -12,3 +12,34 @@
 {
     border-radius: 80%;
 }
+
+body
+{
+    background-color: #212121;
+}
+
+header
+{
+    padding: 50px 120px 60px 120px;
+}
+
+header img
+{
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+h1
+{
+    color: #026606;
+    font-size: 60px;
+    padding: 60px;
+    font-family: "Playfair Display", serif;
+}
+
+p
+{
+    color: #D0C0D0;
+}
